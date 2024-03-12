@@ -63,7 +63,7 @@ This will save the modified grayscale image to a new path with an appended `_fil
 
 The `concat()` method concatenates two images together horizontally or vertically (side by side).
 
-*NOTE:* currently 'concat' is limited to two images
+*NOTE:* Currently 'concat' is limited to two images
 
 It checks the dimensions of both images to ensure they are compatible for concatenation and throws a RuntimeError exception if not.
 For horizontal concatenation it checks both images' height and for vertical concatenation it rotates both images by 90deg (1 time clockwise) first using the self.rotate_clockwise() method and then check the height.
